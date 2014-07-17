@@ -1,0 +1,44 @@
+.cusHeaderText{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	padding: 5px 0 0 0;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.cusNav{
+	margin:20px 10px 0 15px;
+}
+.cusNav a:hover{
+	background-color: #66CC66;
+	border-color:#66CC66;
+	color:white;
+}
+.cusContent{
+	margin:20px 15px 20px 10px;
+	padding-bottom: 30px;
+	height: 460px;
+}
+a.list-group-item.active,a.list-group-item.active:hover{
+	background-color: #66CC66;
+	border-color: #5fbe5f;
+
+}
+table th,td{
+	text-align: center;
+}
+.cusForm{
+	padding: 30px 3% 50px;
+}
+.form_field{
+	width: 83%;
+}
+.required_star{
+   color:red;
+   margin: 0 1%;
+}
+.detail>tbody>tr>th, .detail>tbody>tr>td{
+	border: none;
+}
+
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<%--
+Created by IntelliJ IDEA.
+User: Administrator
+Date: 13-10-17
+Time: 上午11:25
+Function:文件上传的测试页面（仅测试）
+To change this template use File | Settings | File Templates.
+--%>
+<html>
+<head>  <title>Servlet 上传文件</title></head>
+
+<body >
+<form name="uploadForm" method="POST"
+      enctype="MULTIPART/FORM-DATA"
+      action="/upload">
+
+    User Name:<input type="text" name="username" size="30"/>
+    Upload File1:<input type="file" name="file1" size="30"/>
+    Upload File2:<input type="file" name="file2" size="30"/>
+    <input type="submit" name="submit" value="上传">
+    <input type="reset" name="reset" value="重置">
+</form>
+</body>
+</html>
